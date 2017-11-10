@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/karma start config/karma.conf.js",
+    "karma:init": "node_modules/.bin/karma init"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/pporc/testing/issues"
   },
-  "homepage": "https://github.com/pporc/testing#readme"
+  "homepage": "https://github.com/pporc/testing#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "karma": "^1.7.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.5",
+    "mocha": "^4.0.1",
+    "webpack": "^3.8.1"
+  }
 }
