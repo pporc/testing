@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/karma start config/karma.conf.js",
-    "karma:init": "node_modules/.bin/karma init"
+    "karma:init": "node_modules/.bin/karma init",
+    "test:chrome": "node_modules/.bin/karma start config/karma.conf.js --browsers Chrome"
   },
   "repository": {
     "type": "git",
@@ -23,12 +24,14 @@
     "babel-preset-env": "^1.6.1",
     "chai": "^4.1.2",
     "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
     "karma-jasmine": "^1.1.0",
     "karma-mocha": "^1.3.0",
     "karma-mocha-reporter": "^2.2.5",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-webpack": "^2.0.5",
     "mocha": "^4.0.1",
+    "sinon": "^4.1.2",
     "webpack": "^3.8.1"
   }
 }
