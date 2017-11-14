@@ -44,7 +44,7 @@
 // 		})
 // 	})
 
-// 	it('should call console.log() with arguments', () => {
+// 	it('should call console.log() with arguments', (done) => {
 // 		const consoleStub = sinon.stub(console, 'log');
 // 		const testString = 'test';
 
