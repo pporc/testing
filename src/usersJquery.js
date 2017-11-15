@@ -14,4 +14,3 @@ export const postUser = (data) => {
         .then(console.log)
         .catch(console.error);
 };
-console.log(window.$)
